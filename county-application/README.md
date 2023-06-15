@@ -4,9 +4,13 @@
 
 step 1: Go to <h5>countyapplication<h5> class and right click the class and go to Run As -> Spring Boot App
 step 2: After the application start go to postman or any browser and hit the below urls
-  2.1 http://localhost:3000/suggest/AL
-  2.2 http://localhost:3000/suggest/AL/Baldwin
-  2.3 http://localhost:3000/suggest/list
+  <br>
+  http://localhost:3000/suggest/AL
+  <br>
+  http://localhost:3000/suggest/AL/Baldwin
+  <br>
+  http://localhost:3000/suggest/list
+  <br>
 
 
 H2 database is used in this application
