@@ -11,15 +11,16 @@ import com.county.countyapplication.domain.County;
 public interface CountyRepository extends CrudRepository<County, String> {
 	
 	
-	@Query("SELECT c FROM County c WHERE c.name = ?1 and c.state = ?2") // completed
+	
+	@Query("SELECT c FROM County c WHERE c.name like %?1% and c.state like %?2%") 
 	List<County> findByStateAndName(String name,String state);
 	
 	
-	@Query("SELECT c FROM County c WHERE c.name like %?1%") // completed
+	@Query("SELECT c FROM County c WHERE c.name like %?1%") 
 	List<County> findByName(String name);
 	
 	
-	@Query("SELECT c FROM County c WHERE c.state = ?1") // completed
+	@Query("SELECT c FROM County c WHERE c.state like %?1%")
 	List<County> findByState(String state);
 	
 	
