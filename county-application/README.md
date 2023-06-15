@@ -2,7 +2,9 @@
 
 <h4>Steps to run the application<h4>
 
-step 1: Go to <h5>countyapplication<h5> class and right click the class and go to Run As -> Spring Boot App
+step 1: Go to countyapplication.class and right click the class and go to Run As -> Spring Boot App
+
+
 step 2: After the application start go to postman or any browser and hit the below urls
   <br>
   http://localhost:3000/suggest/AL
